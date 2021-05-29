@@ -1,0 +1,1111 @@
+.site-head {
+    height: 150px;
+}
+
+.site-head .top-bar {
+    height: 32px;
+    background-color: #2a2a2a;
+    line-height: 32px;
+}
+
+.site-head .top-bar a {
+    color: white;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li {
+    float: left;
+    margin-right: 18px;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu {
+    padding-right: 12px;
+    position: relative;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .menu {
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 0 0 10px;
+    /* 置于上层 */
+    z-index: 999;
+    /* 将它隐藏 鼠标碰到时才会出现*/
+    display: none;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .menu .menulist a {
+    color: #1c1f21;
+    font-size: 14px;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .menu .menulist a:hover {
+    color: #20BD9a;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .neigbormenu {
+    width: 128px;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .scmenu {
+    width: 100px;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .jdmenu {
+    width: 70px;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu:hover .menu {
+    display: block;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .arrow {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+    transition: transform 0.2s ease 0s;
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .arrow:hover {
+    transform-origin: 65% 50%;
+    transform: rotate(180deg);
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .arrow b {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    left: 4px;
+    top: 1px;
+    transform: rotate(45deg);
+}
+
+.site-head .top-bar .center-wrap .shortcut-links>ul>li.have-menu .arrow i {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 4px;
+    background-color: #2a2a2a;
+    transform: rotate(45deg);
+}
+
+.site-head .top-bar .center-wrap .topbar-r {
+    float: right;
+    width: 225px;
+}
+
+.site-head .top-bar .center-wrap .topbar-r a, .site-head .top-bar .center-wrap .topbar-r span {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.site-head .top-bar .center-wrap .topbar-r a:last-child {
+    margin-right: 0;
+}
+
+.site-head .main-nav {
+    height: 40px;
+    background-color: #20BD9a;
+}
+
+.site-head .main-nav ul li {
+    float: left;
+    margin-right: 18px;
+    line-height: 40px;
+    position: relative;
+}
+
+.site-head .main-nav ul li a {
+    color: white;
+}
+
+.site-head .main-nav ul li.have-menu {
+    padding-right: 16px;
+}
+
+.site-head .main-nav ul li.have-menu::after {
+    position: absolute;
+    right: 0px;
+    top: 18px;
+    content: "";
+    border: 5px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-top-color: white;
+    /* 去掉底部边框，因为底部边框会影响旋转中心 */
+    border-bottom: none;
+    transition: transform 0.1s ease 0s;
+}
+
+.site-head .main-nav ul li.have-menu:hover::after {
+    transform: rotate(180deg);
+}
+
+.site-head .main-nav ul li.have-menu .menu {
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: none;
+}
+
+.site-head .main-nav ul li.have-menu:hover .menu {
+    display: block;
+}
+
+.site-head .main-nav ul li.have-menu .menu dl dd a {
+    font-size: 14px;
+    color: #1c1f21;
+}
+
+.site-head .main-nav ul li.have-menu .menu dl dd a:hover {
+    color: #20BD9a;
+}
+
+.site-head .main-nav ul li.have-menu .ddwlmenu {
+    width: 180px;
+}
+
+.site-head .main-nav ul li.have-menu .gtymenu {
+    width: 90px;
+}
+
+.site-head .main-nav ul li.have-menu .jqzyxmenu {
+    width: 180px;
+}
+
+.site-head .main-nav ul li.have-menu .sdlymenu {
+    width: 180px;
+}
+
+.site-head .header-content {
+    height: 36px;
+    padding: 21px 0;
+}
+
+.site-head .header-content .center-wrap h1 {
+    color: #20BD9a;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    line-height: 36px;
+    margin-right: 20px;
+}
+
+.site-head .header-content .center-wrap .search-box {
+    float: left;
+    width: 405px;
+    padding: 3px;
+}
+
+.site-head .header-content .center-wrap .search-box input {
+    width: 373px;
+    border: 1px solid #20BD9a;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 10px;
+    /* 取消点击文本框时的外廓线 */
+    outline: none;
+    float: left;
+}
+
+.site-head .header-content .center-wrap .search-box a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: #20BD9a;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 0 4px 4px 0;
+}
+
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .carousel_list{
+    width: 600%;
+    /* 清除浮动 */
+    /* translateX的百分数表示相对于它本身的宽度 */
+    /* transform: translateX(-16.66%); */
+    /* 使用相对定位的left移动情况会很复杂 */
+    transition: transform 0.5s ease 0s;
+}
+.banner .carousel_list li{
+    width: 16.66%;
+    float: left;
+}
+
+.banner .carousel_list li img{
+    width: 100%;
+    vertical-align: middle;
+}
+.banner .circles li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color:#20BD9a ;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;
+    /* 鼠标指针变为小手状 */
+    cursor: pointer;
+}
+.banner .circles li:last-child{
+    margin-right: 0;
+}
+.banner .circles li.current{
+    width: 40px;
+    background-color: #20BD9a;
+}
+.banner .center-wrap .btn {
+    position: absolute;
+    width: 28px;
+    height: 44px;
+    top: 50%;
+    margin-top: -22px;
+}
+
+.banner .center-wrap .btn:hover {
+    background-color: #1c1f21e7;
+}
+
+.banner .center-wrap .leftbtn {
+    left: -38px;
+    background: url(../images/icons.png) no-repeat -21px -94px;
+}
+
+.banner .center-wrap .rightbtn {
+    right: -38px;
+    background: url(../images/icons.png) no-repeat -21px -29px;
+}
+
+.banner .circles {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 10px;
+    z-index: 9999;
+}
+
+.banner .center-wrap {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -576px;
+    width: 1152px;
+    height: 100%;
+}
+
+.banner .center-wrap .banner-nav {
+    height: 100%;
+    width: 653px;
+}
+
+.banner .center-wrap .banner-nav ul {
+    height: 100%;
+    /* 一定要给ul设置高度，不然只给li设置高度是无效的 */
+}
+
+.banner .banner-nav>ul>li {
+    height: 16.667%;
+    width: 296px;
+    background-color: rgba(0, 0, 0, 0.39);
+    box-sizing: border-box;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.banner .banner-nav>ul>li:last-child {
+    border-bottom: none;
+}
+
+.banner .center-wrap .banner-nav>ul>li {
+    position: relative;
+}
+.banner .center-wrap .banner-nav>ul>li.current{
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.banner .center-wrap .banner-nav>ul>li dl {
+    position: absolute;
+    height: 48px;
+    top: 50%;
+    left: 42px;
+    margin-top: -24px;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.banner .center-wrap .banner-nav>ul>li dl dt {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.banner .center-wrap .banner-nav>ul>li::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/icons.png);
+    top: 50%;
+    left: 10px;
+}
+
+.banner .center-wrap .banner-nav>ul>li.hot::before {
+    width: 22px;
+    height: 18px;
+    margin-top: -8.5px;
+    left: 9px;
+    background-position: -299px -399px;
+}
+
+.banner .center-wrap .banner-nav>ul>li.hk::before {
+    width: 18px;
+    height: 21px;
+    margin-top: -10.5px;
+    left: 11px;
+    background-position: -28px -217px;
+}
+
+.banner .center-wrap .banner-nav>ul>li.jp::before {
+    width: 24px;
+    height: 19px;
+    margin-top: -9.5px;
+    background-position: -25px -171px;
+}
+
+.banner .center-wrap .banner-nav>ul>li.as::before {
+    width: 18px;
+    height: 19px;
+    margin-top: -9.5px;
+    background-position: -28px -262px;
+    left: 12px;
+}
+
+.banner .center-wrap .banner-nav>ul>li.eu::before {
+    width: 20px;
+    height: 14px;
+    margin-top: -7px;
+    background-position: -29px -351px;
+    left: 12px;
+}
+
+.banner .center-wrap .banner-nav>ul>li.au::before {
+    width: 18px;
+    height: 17px;
+    margin-top: -8.5px;
+    background-position: -28px -305px;
+    left: 12px;
+}
+
+.banner .center-wrap .banner-nav .menu-box .menu {
+    /* 暂时隐藏 */
+    display: none;
+    position: absolute;
+    left: 296px;
+    top: 0;
+    height: 100%;
+    padding: 10px;
+    width: 366px;
+    background-color: rgba(0, 0, 0, 0.63);
+    box-sizing: border-box;
+    z-index: 99999;
+}
+.banner .center-wrap .banner-nav .menu-box .current{
+    display: block;
+}
+.banner .center-wrap .banner-nav .menu-box .menu dl {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.banner .center-wrap .banner-nav .menu-box .menu dt {
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.banner .center-wrap .banner-nav .menu-box .menu dl a {
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* 热门广告 */
+
+.hot-ads {
+    margin: 32px 0;
+}
+
+.hot-ads ul li {
+    float: left;
+    width: 264px;
+    height: 110px;
+    margin-right: 32px;
+}
+
+.hot-ads ul li:last-child {
+    margin-right: 0;
+}
+
+/* 新鲜甩尾部分 */
+
+.xxsw {
+    padding-top: 40px;
+    height: 738px;
+    background-color: #f7f7f7;
+}
+
+.xxsw .hd {
+    margin-bottom: 32px;
+}
+
+.content-part h2 {
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #1c1f21;
+}
+
+.content-part em {
+    float: left;
+    position: relative;
+    top: 20px;
+    color: #1c1f21;
+}
+
+.xxsw .center-wrap ul li {
+    float: left;
+    width: 264px;
+    height: 270px;
+    margin-right: 32px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+/* 选择第4个和第8个li */
+
+.xxsw .center-wrap ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.xxsw .center-wrap ul li:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.xxsw .center-wrap ul li .picbox {
+    overflow: hidden;
+    height: 184px;
+}
+
+.xxsw .center-wrap ul li .wordbox {
+    padding: 15px;
+    font-size: 14px;
+    color: #1c1f21;
+}
+
+/* 机酒自由行 */
+
+.common-style {
+    padding-top: 40px;
+    height: 698px;
+}
+
+.common-style .hd h2 {
+    float: left;
+}
+
+.common-style .hd em {
+    float: left;
+}
+
+.content-part .hd nav {
+    float: right;
+    width: 530px;
+    padding-top: 18px;
+}
+
+.content-part .hd nav ul li {
+    float: left;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.content-part .hd nav ul li:last-child {
+    margin-right: 0;
+}
+
+.content-part .hd nav ul li a {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.content-part .hd nav ul li.current a {
+    color: #20BD9a;
+    font-weight: bold;
+    border-bottom: 1px solid #20BD9a;
+    padding-bottom: 1px;
+}
+
+.common-style .bd {
+    padding-top: 32px;
+}
+
+.common-style .bd .picbox {
+    height: 184px;
+    overflow: hidden;
+}
+
+.common-style .bd>ul>li {
+    float: left;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.common-style .bd>ul>li:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.common-style .bd>ul li.pro-grid .wordbox {
+    font-size: 14px;
+    color: #1c1f21;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.common-style .bd>ul li.big-grid {
+    width: 560px;
+    height: 270px;
+    margin-right: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.common-style .bd>ul li.big-grid .info {
+    position: absolute;
+    width: 508px;
+    height: 43px;
+    background-color: rgba(0, 0, 0, 0.60);
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 30px 26px;
+    line-height: 26px;
+}
+
+.common-style .bd ul li .tag {
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.60);
+    bottom: 103px;
+    left: 0;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    /* 这个z-index 非常重要，因为不然hover的时候，图片会浮在tag标签上方 */
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+.common-style .bd ul li.pro-grid {
+    width: 264px;
+    height: 270px;
+    margin-right: 32px;
+    position: relative;
+}
+
+.common-style .bd ul li:nth-child(3), .jqzyx .bd ul li:nth-child(7) {
+    margin-right: 0;
+}
+
+.content-part .bd .more-grid {
+    position: relative;
+    width: 264px;
+    height: 270px;
+    box-sizing: border-box;
+    padding-top: 46px;
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15af7a 98%);
+}
+
+.content-part .bd .more-grid p {
+    text-align: center;
+    color: white;
+}
+
+.content-part .bd .more-grid svg {
+    transform: scale(0.25);
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.content-part .bd .more-grid ul {
+    margin-top: 125px;
+}
+
+.content-part .bd .more-grid ul li {
+    float: left;
+    border-right: 1px solid white;
+    color: white;
+    padding: 0 6px;
+    margin-right: 10px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.content-part .bd .more-grid ul li:last-child {
+    border: none;
+}
+
+.content-part .bd .more-grid ul li:first-child {
+    margin-left: 20px;
+}
+
+.ddwl {
+    background-color: #f7f7f7;
+    height: 546px;
+    padding-top: 40px;
+}
+
+.ddwl .center-wrap .hd nav {
+    width: 349px;
+}
+
+.ddwl .center-wrap .bd .col {
+    margin-top: 32px;
+    width: 364px;
+    height: 480px;
+    margin-right: 30px;
+    float: left;
+}
+
+.ddwl .center-wrap .bd .col:last-child {
+    margin-right: 0;
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box {
+    width: 364px;
+    height: 270px;
+    background-color: red;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box .info {
+    position: absolute;
+    width: 364px;
+    height: 104px;
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    padding: 21px 17px 0 17px;
+    box-sizing: border-box;
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box .info .bottom {
+    padding-top: 10px;
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box .info .bottom .tag {
+    float: left;
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box .info .bottom .price {
+    float: right;
+}
+
+.ddwl .center-wrap .bd .col .bigpic-box .info .bottom .price strong {
+    color: #20BD9a;
+}
+
+.ddwl .center-wrap .bd .col .grid {
+    width: 364px;
+    background-color: white;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.ddwl .center-wrap .bd .col .grid .picbox {
+    float: left;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.ddwl .center-wrap .bd .col .grid .wordbox {
+    float: left;
+    width: 244px;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 26px 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    color: #1c1f21;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.ddwl .center-wrap .bd .col .more-grid {
+    width: 364px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    background-image: linear-gradient(180deg, #ff5374 1%, #ff7368 98%);
+}
+
+.ddwl .center-wrap .bd .col .more-grid:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ddwl .center-wrap .bd .col .more-grid svg {
+    top: 43px;
+    left: 78px;
+}
+
+.ddwl .center-wrap .bd .col .more-grid ul li {
+    margin-right: 0px;
+}
+
+.ddwl .grid:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* 特色当地体验 */
+
+.tsddty {
+    height: 406px;
+    padding-top: 40px;
+}
+
+.tsddty h2 {
+    float: none;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.tsddty .bd ul li {
+    float: left;
+    width: 264px;
+    height: 290px;
+    box-sizing: border-box;
+    margin-right: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tsddty .bd ul li .picbox {
+    height: 184px;
+    overflow: hidden;
+}
+
+.tsddty .bd ul li .wordbox {
+    padding: 10px 8px;
+}
+
+.tsddty .bd ul li:last-child {
+    margin-right: 0;
+}
+
+.tsddty .bd ul li .proname {
+    font-weight: bold;
+    color: #1c1f21;
+    font-size: 15px;
+    height: 48px;
+}
+
+.tsddty .bd ul li .score {
+    font-size: 13px;
+    color: #fa4600;
+}
+
+.tsddty .bd ul li .comment {
+    font-size: 13px;
+    color: #1c1f21;
+}
+
+.tsddty .bd ul li:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* 最世界·深度旅行 */
+
+.zsjsdlx .hd nav {
+    width: 86px;
+}
+
+.zsjsdlx .bd .more-grid {
+    background-image: linear-gradient(180deg, #bd5ee8 0%, #832abb 98%);
+}
+
+/* 跟团/半自助游  */
+
+.gtbzzy .hd nav {
+    width: 170px;
+}
+
+.gtbzzy .bd .more-grid {
+    background-image: linear-gradient(180deg, #41D8E9 0%, #3685EA 98%);
+}
+
+.gtbzzy .bd .more-grid ul {
+    padding-left: 38px;
+}
+
+.gtbzzy .bd .more-grid ul li:first-child {
+    padding-right: 18px;
+}
+
+/* 公共特效 鼠标触碰图片能够放大 */
+
+.content-part img {
+    transition: transform 0.4s ease 0s;
+}
+
+.content-part img:hover {
+    transform: scale(1.1);
+}
+
+/* 隐藏溢出的图片 */
+
+.content-part li {
+    overflow: hidden;
+}
+
+.content-part .grid, .content-part .bigpic-box {
+    overflow: hidden;
+}
+
+/* 给箭头添加动画 */
+
+/* 注意是给父盒子加hover */
+
+.content-part .more-grid:hover svg {
+    animation: bounce 0.4s ease 0s infinite alternate;
+}
+
+/* 将a标签转块 这样哪里都能点了 */
+
+.content-part .more-grid a {
+    display: block;
+}
+
+@keyframes bounce {
+    from {
+        transform: scale(0.25) translateY(-50px);
+    }
+    to {
+        transform: scale(0.25) translateY(50px);
+    }
+}
+
+.havehover .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    opacity: 0;
+    transition: opacity 0.4s ease 0s;
+}
+
+.havehover :hover .mask {
+    opacity: 1;
+}
+
+.havehover .circle {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    top: -106px;
+    left: 50%;
+    margin-left: -53px;
+    border: 1px solid white;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    transition: top 0.4s ease 0s;
+}
+
+.havehover :hover .circle {
+    top: 62px;
+}
+
+.havehover .word {
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+    color: white;
+    transition: bottom 0.4s ease 0s;
+}
+
+.havehover :hover .word {
+    bottom: 30px;
+}
+
+/* 页脚 */
+
+footer .part1 {
+    background-color: #f7f7f7;
+    height: 220px;
+}
+
+footer .part1 ul {
+    padding-top: 36px;
+}
+
+footer .part1 nav ul li {
+    float: left;
+    border-right: 1px solid #1c1f21;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 30px;
+}
+
+footer .part1 nav ul li:first-child {
+    padding-left: 0;
+}
+
+footer .part1 nav ul li:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+footer .part1 nav ul li a {
+    color: #1c1f21;
+}
+
+footer .part1 dl {
+    width: 289px;
+    float: left;
+    padding-left: 75px;
+    margin-right: 30px;
+    position: relative;
+}
+
+footer .part1 dl:last-child {
+    margin-right: 0;
+}
+
+footer .part1 .dlbox {
+    padding-top: 30px;
+}
+
+footer .part1 dl dt {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer .part1 dl dd {
+    font-size: 14px;
+}
+
+footer .part1 dl:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/icons.png);
+    left: 0;
+}
+
+footer .part1 dl.txfw:before {
+    background-position: -150px -178px;
+}
+
+footer .part1 dl.ccsx:before {
+    background-position: -150px -104px;
+}
+
+footer .part1 dl.axph:before {
+    background-position: -150px -31px;
+}
+
+footer .part2 {
+    height: 225px;
+    background-color: #1C1F21;
+}
+
+footer .part2 .r1 {
+    padding-top: 48px;
+}
+
+footer .part2 .r1 h2 {
+    font-size: 46px;
+    float: left;
+    color: white;
+    margin-right: 21px;
+}
+
+footer .part2 .r1 p.slogan {
+    float: left;
+    color: white;
+    width: 532px;
+    height: 44px;
+    padding-top: 10px;
+}
+
+footer .part2 .links {
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+
+footer .part2 .links ul li {
+    float: left;
+    padding-right: 14px;
+    margin-right: 14px;
+    border-right: 1px solid white;
+    line-height: 14px;
+    height: 14px;
+}
+
+footer .part2 .links ul li a {
+    font-size: 14px;
+    color: white;
+}
+
+footer .part2 .links ul li:last-child {
+    border-right: none;
+}
+
+footer .part2 .copyrights {
+    color: white;
+    font-size: 14px;
+}
+
+footer .part2 .copyrights a {
+    color: white;
+    font-size: 14px;
+}
+.backtotop{
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+.backtotop img{
+    width: 90%;
+    margin: 3px 3px;
+}
